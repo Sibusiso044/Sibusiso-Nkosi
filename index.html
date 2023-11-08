@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibusiso Nkosi | Portfolio</title>
+
+    <!--STYLES LINK-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--JS LINK-->
+
+    <!-- Favicons -->
+  <link href="images/favicon.png" rel="icon">
+
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="images/Cancel.png" alt="" class=" navbar menu-icons-img" onclick="closemenu()">
+                    
+                </ul>
+                <img src="images/Menu.png" alt="" class=" navbar menu-icons-img" onclick="openmenu()">
+            </nav>
+            <div class="header-text">
+                
+                <h1><span>Hi,</span> I'm Sibusiso Nkosi</h1>
+                <h2><span class="typewriter" id="typed"></span></h2>
+                
+                
+
+            </div>  
+        </div>
+
+    </div>
+    <!--about-->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Sbu1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>I am a creative individual that has been obssessed with computers and all forms of art. 
+                        Since we're living in a digital world, I figured it would be best incorporate the two 
+                        and design websites that are pleasing to the eye. I am a Rosebank College seed that is 
+                        ready to sprout into the world of web design. My speciality is front-end web design and 
+                        development, although I carry an emmerse background in software development. Having 
+                        accumulated knowledge of different languages such as HTML, CSS, C#, JavaScript and Java, 
+                        I am capable of creating beautiful, user-friendly websites.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span></span><br> Though I am at the early stages of my career, 
+                                I am confident in most of the languages I have learned thus far. The sky is the limit.
+                            </li>
+
+                            <div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bxl-html5 skills__icon'></i>
+                                        <span class="skills__name">HTML5</span>
+                                    </div>
+                                    <div class="skills__bar skills__html">
+            
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-css3 skills__icon'></i>
+                                    <span class="skills__name">CSS3</span>
+                                </div>
+                                <div class="skills__bar skills__css">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">80%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-javascript skills__icon' ></i>
+                                    <span class="skills__name">JAVASCRIPT</span>
+                                </div>
+                                <div class="skills__bar skills__js">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">65%</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxs-paint skills__icon'></i>
+                                    <span class="skills__name">UX/UI</span>
+                                </div>
+                                <div class="skills__bar skills__ux">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">85%</span>
+                                </div>
+                            </div>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019 - 2020</span><br> Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2022</span><br> Diploma in Information Technology in Software Development</li>
+                            <li><span>2019 - 2020 </span><br> Certificate in Information Technology in Support Services</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--services-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <img src="images/Brush.png" alt="" class="services-img">
+                    <h2>Web Design</h2>
+                    <p>I offer web designing for independent companies and organizations that are looking to broaden
+                        their business online.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <img src="images/Code.png" alt="" class="services-img">
+                    <h2>Web Development</h2>
+                    <p>I offer front-end and back-end web development for companies and independent businesses.
+                    </p>
+                    <a href="#contact">Let's Work</a>
+                </div>
+
+                <div>
+                    <img src="images/Computer.png" alt="" class="services-img">
+                    <h2>Web Management</h2>
+                    <p>I offer web management services for independent  businesses.
+                    </p>
+                    <a href="#">Send Me A Quote</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--porfolio-->
+    <!--we dont have any yet-->
+
+    <!--contact-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><img src="images/email.png" class="contact-icons-img">Sbusindile1@gmail.com</p>
+                    <p><img src="images/phone.png " class="contact-icons-img">(074) 285 0200</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="images/Github.png" class="contact-img"></a>
+                        <a href="#"><img src="images/Instagram.png" class="contact-img"></a>
+                    </div>
+                    <p> Below I have attached a link to my Curriculum Vitae. Feel free to check it out.</p>
+                    <a href="documents/Sibusiso Nkosi Curriculum Vitae.pdf" download class="btn btn2">Download CV</a>
+
+
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+        <!--
+        <script>
+            const text = document.querySelector(".sec-text");
+    
+            const textLoad = () => {
+                setTimeout(() => {
+                    text.textContent = " A Web Developer";
+                }, 0);
+                setTimeout(() => {
+                    text.textContent = "A Software Developer";
+                }, 4000);
+                setTimeout(() => {
+                    text.textContent = "A Creative";
+                }, 8000); //1s = 1000 milliseconds
+            }
+    
+            textLoad();
+            setInterval(textLoad, 12000);
+        </script>
+        -->
+
+
+
+        <!--copyright-->
+    
+
+
+        <div class="copyright">
+            <p>Copyright c Sibusiso Nkosi. </p>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!---Footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!--Typewriter script-->
+
+    <script src="typed.js/typed.js-main/dist/typed.umd.js"></script>
+    <script>
+
+        var typed = new Typed("#typed",{
+            strings : ["Web Developer", "Software Developer", "Creative"],
+            typeSpeed: 50,
+            loop: true,
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!--Tab Links script-->
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <!--Side Menu script-->
+
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+        const msg =document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch({method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message Sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error', error.message))
+        })
+
+
+    </script>
+
+
+
+</body>
+</html>
